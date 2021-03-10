@@ -18,7 +18,7 @@ $ echo hello
 
 Copy and paste the output below.
 ----------
-
+hello
 
 
 ==========
@@ -28,7 +28,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+hello there
 
 
 ==========
@@ -38,7 +38,7 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
+>
 
 
 ==========
@@ -56,7 +56,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
+good mornin'
 
 
 ==========
@@ -66,7 +66,7 @@ $ echo *
 
 What happens?
 ----------
-
+aardvark animals foo food lemon
 
 
 ==========
@@ -74,7 +74,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
+clear
 
 
 ==========
@@ -87,7 +87,12 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
-
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 
 ==========
@@ -97,7 +102,7 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
+<title>Google</title>
 
 
 ==========
@@ -113,7 +118,7 @@ Write the command you used below.  Also copy and paste the output below.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
-
+$ curl -o google.html www.google.com
 
 
 ==========
@@ -121,7 +126,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+cd ~
 
 
 ==========
@@ -137,15 +142,17 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
-
-
+curl -o mtec1003-lab-02.zip https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/mtec1003-lab-02.zip
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  920k  100  920k    0     0   594k      0  0:00:01  0:00:01 --:--:--  594k
 
 ==========
 14. We learned a command to uncompress a .zip file.  Use it to extract the files and folders from the file you just downloaded.
 
 Write down the command that you used to uncompress the file.
 ----------
-
+unzip mtec1003-lab-02.zip
 
 
 ==========
